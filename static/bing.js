@@ -1,11 +1,11 @@
 var URL_ROOT	= 'https://api.github.com/repos/webkb/windows_spotlight/';
 var URL_CONTENT	= URL_ROOT + 'contents/';
-var URL_test	= 'http://127.0.0.1/f/shinchan/data/e/1.txt';
+var URL_test	= '//shinchan.ieini.com/data/e/1.txt';
 var hui = {};
 
 function anime_list_info ($items) {
 	var innerHTML = '';
-	$px = '178x100';
+
 	for (var i in $items) {
 		var j = $items[i];
 
