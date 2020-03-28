@@ -4,64 +4,118 @@ permalink: /404.html
 <!doctype html>
 <html>
 <head>
-<title>蜡笔小新 2018-07-06 970</title>
-<meta name="viewport" content="width=device-width">
 <meta charset="utf-8" />
+<title>蜡笔小新大全 蜡笔小新在线 蜡笔小新下载 蜡笔小新百度网盘 蜡笔小新磁链</title>
+<meta name="viewport" content="width=device-width">
 <style>
 body {
 	background:url(static/HandPrints.jpg);
+	display: flex;
+	flex-wrap: wrap;
+}
+header {
+	width:100%;
+	background:url(static/ShadesOfBlue.jpg);
+	background-size: contain;
+}
+
+
+h1 {
+	display:inline-block;
 }
 
 a {
 	text-decoration: none;
 }
-a:hover {
-	border-bottom: 1px solid blue;
+
+
+.item {
+	width:10em;
+	margin: 1px;
 }
-div {
-	background:url(static/ShadesOfBlue.jpg);
-	background-size: contain;
+
+.zimuzuok {
+	background:white;
+	color:black;
 }
-h1 {
+.zimuzuno {
+	background:black;
+	color:white;
+}
+.type {
+	display:inline-block;
+	width:10em;
+}
+.e {
 	display:inline-block;
 }
-table  {
-	width:100%;
-	border-collapse: collapse;
-	font-size:14px;
-	color:#333333;
+
+.M {
+	background:red;
 }
-table th, table td {
-	padding: 8px;
-	border: 1px solid #666666;
+.SP {
+	background:blue;
 }
-table th {
-	background-color: #dedede;
+.W {
+	background:orange;
+}
+
+.icon {
+	display:inline-block;
+	width:1em;
+    height: 1em;
+    background-size: cover;
+}
+img{
+	width:1em;
+    height: 1em;
+}
+.magnet {
+    background: url(http://mag234.com/favicon.ico);
+}
+.baidupan {
+    background: url(https://pan.baidu.com/box-static/disk-system/images/favicon.ico);
+    background-size: cover;
+}
+.weiyun {
+    background: url(https://www.weiyun.com/favicon.ico);
+    background-size: cover;
+}
+.youku {
+    background: url(https://static.youku.com/index/img/favicon.ico);
+    background-size: cover;
+}
+.weibovideo {
+    background: url(https://weibo.com/favicon.ico);
+    background-size: cover;
+}
+.bilibili {
+    background: url(https://www.bilibili.com/favicon.ico);
+    background-size: cover;
+}
+
+#list li {
+    display: inline-block;
+    list-style-type
 }
 </style>
 </head>
 <body>
-<div><h1><a href="shinchan.php">蜡笔小新大全</a> 2018-07-06 970</h1>  <a href="http://www.shijuewuyu.com/gbbs/page.php?id=44">帮助中心</a> <a href="https://weibo.com/1742877094/IyvDlF3fy">微博留言本</a></div>
-<table>
-	<tr>
-		<th>类型</th>
-		<th>集数</th>
-		<th>日期</th>
-		<th>字幕组</th>
-		<th width="40%">标题</th>
-		<th width="20%">链接</th>
-	</tr>
-	<tr>
-		<td rowspan=1>E</td>
-	<td rowspan=1><a name='E970'>E970</a></td>
-	<td rowspan=1><a name='2018-07-06'>2018-07-06</a></td>
-		<td><a href=shinchan.php?author=do>独偶</a></td>
-	<td>冰淇淋好好吃哦、收集帮忙积分哦、阿呆和我哦</td>
-	<td><a target="_blank" href="magnet:?xt=urn:btih:41ac70809ddb898348ef8a1b20fe66a16657618c">磁链</a>     </td>
-	</tr>
-</table>
-<script> alocation='//shinchan.ieini.com' </script>
-<script src="//shijuewuyu.com/tongji.php"></script>
+<header><h1><a href="shinchan.php">蜡笔小新大全</a></h1> <a href="http://www.shijuewuyu.com/gbbs/page.php?id=44">帮助中心</a> <a href="https://weibo.com/1742877094/IyvDlF3fy">微博留言本</a></header>
+<main>
+    <ul id=list>
+    </ul>
+    <article id=e>
+        <h1 id=etitle></h1>
+        <date id=edate></date>
+        <div id=video>
+
+        </div>
+    </article>
+</main>
+
+            <script src="static/api.js"></script>
+            <script src="static/bing.js"></script>
+            <script>loadPage();</script>
 </body>
 </html>
-
